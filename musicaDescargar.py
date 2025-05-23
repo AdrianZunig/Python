@@ -2,7 +2,7 @@ import yt_dlp
 import os
 
 # Metodo
-def descargar_musica(url,carpeta="Rolas"): # pasamos parametros
+def descargar_musica(url,carpeta="Songs"): # pasamos parametros
     # Crear carpeta si esta no existe
     try: 
         if not os.path.exists(carpeta):
